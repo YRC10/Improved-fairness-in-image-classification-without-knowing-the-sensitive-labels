@@ -16,7 +16,7 @@ Therefore, I select all images of helthy patients to train the $\beta$-VAE. In t
 
 1. run `./unsupervised/betaVAE.ipynb` to generate the $\beta$-VAE for sensitive feature extraction. The weights are stored at `./unsupervised/model_weights_beta100_epoch10.pth`
 
-2. run `./FCRO-Fair-Classification-Orthogonal-Representation/train.py` with the following command to train the FCRO model. Due to the limited computing capbaility, I just use 10,000 images for training and 5,000 images for validation.
+2. run `./FCRO-Fair-Classification-Orthogonal-Representation/train.py` with the following command to train the FCRO model. Due to the limited computing capbaility, I just use 10,000 images for training and 5,000 images for validation. The weights are stored at `../experiments/fold_0/model_target_35.pth`
 ```bash
 python train.py --image_path ../ -f 0 --cond
 ```
