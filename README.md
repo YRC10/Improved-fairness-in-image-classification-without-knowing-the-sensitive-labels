@@ -27,5 +27,6 @@ python train.py --test --image_path ../ -f 0 --epoch 35 --pretrained_path ../exp
 ```
 
 # Test result
+![avatar](./experiments/test_result.png)
 
 Comparing the test results of my method and the test results of the paper, I found that the AUC value of my method is lower than the AUC in the paper. This may be mainly because my training size is too small compared to the original paper. In addition, in the evaluation of fairness, I was surprised to find that most of the results obtained by my method were better than those in the original paper.
