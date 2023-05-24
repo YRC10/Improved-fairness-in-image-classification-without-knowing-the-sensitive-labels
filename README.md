@@ -1,5 +1,4 @@
 # Improved fairness in image classification without knowing the sensitive labels
-CodeTest for transfer MASc
 
 Ruichen Yao
 
